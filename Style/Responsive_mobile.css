@@ -1,0 +1,39 @@
+@media screen and (max-width: 576px) {
+    
+    .container{
+        margin: 20px 15px 0px 15px;
+     }
+     .logo_text, .nav_btn, .none{
+        display: none;
+     }
+     .menu {
+        display: block;
+        
+    }
+    .banner{
+        flex-direction: column-reverse;
+       align-items: center;
+        gap: 30px;
+    }
+    .banner_text{
+        padding: 50px 0px;
+        text-align: center;
+    }
+    .banner_title{
+        font-size: 2rem;
+        line-height: normal;
+        margin-bottom: 18px;
+    }
+    .banner_about{
+        font-size: 0.8rem;
+        margin-bottom: 18px;
+    }
+    .banner_btn{
+        font-size: 1rem;
+        padding: 6px 24px;
+        border-radius: 8px;
+    }
+    .banner_btn::before{
+        border-radius: 8px;
+    }
+}
