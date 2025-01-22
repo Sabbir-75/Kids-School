@@ -12,6 +12,12 @@
    margin: 20px auto 0px auto;
    background-color: #FFFFFF;
 }
+hr{
+    display: none;
+}
+.horizontal{
+    height: 102px;
+}
 
 .font-familly{
     font-family: "Quicksand", serif;
@@ -166,4 +172,147 @@
 }
 .banner_image img{
     width: 100%;
+}
+
+
+.Curriculum{
+    padding: 60px 0px;
+    background-image: url('../Photo/bg.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Curriculum_h2{
+    text-align: center;
+    font-size: 2.87rem;
+    font-weight: 700;
+    color: #000000;
+    line-height: 57px;
+    margin-bottom: 80px;
+}
+
+.Curriculum_curds{
+    max-width: 1160px;
+    margin: 0 auto;
+    display: grid;
+    gap: 28.29px;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.curlm_card{
+    max-width: 367.8px;
+    padding: 53px 40.5px;
+    border-radius: 18.86px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition: 0.4s linear;
+}
+.shadow_1{
+    background: linear-gradient( rgba(222, 245, 255, 1) 0%, rgba(255, 255, 255, 0) 40%);
+    background-color: #FFFFFF;
+    border: 0.94px solid #DEF5FF;
+    box-shadow: inset 0px 0px 28.3px rgba(0, 0, 0, 0.05);
+}
+.shadow_1:hover{
+    background: linear-gradient( rgb(158, 225, 254) 0%, rgba(255, 255, 255, 0) 40%);
+    box-shadow: inset 0px 0px 28.3px rgba(0, 0, 0, 0.105);
+    background-color: #ffffff;
+}
+.shadow_2{
+    background: linear-gradient( rgba(255, 244, 220, 1) 0%, rgba(255, 255, 255, 0) 40%);
+    border: 0.94px solid #FFF4DC;
+    background-color: #FFFFFF;
+   box-shadow: inset 0px 0px 28.3px rgba(0, 0, 0, 0.05);
+}
+.shadow_2:hover{
+    background: linear-gradient( rgb(255, 224, 158) 0%, rgba(255, 255, 255, 0) 40%);
+    box-shadow: inset 0px 0px 28.3px rgba(0, 0, 0, 0.105);
+    background-color: #ffffff;
+    
+}
+.shadow_3{
+    background: linear-gradient( rgba(238, 225, 255, 1) 0%, rgba(255, 255, 255, 0) 40%);
+    border: 0.94px solid #F2E8FF;
+    background-color: #FFFFFF;
+    box-shadow: inset 0px 0px 28.3px rgba(0, 0, 0, 0.05);
+}
+.shadow_3:hover{
+    background: linear-gradient( rgb(200, 158, 255) 0%, rgba(255, 255, 255, 0) 40%);
+    box-shadow: inset 0px 0px 28.3px rgba(0, 0, 0, 0.105);
+    background-color: #ffffff;
+    
+}
+.curlm_image{
+    max-width: 138px;
+    margin-bottom: 32px;
+    transition: 0.4s linear;
+}
+.shadow_1 img{
+    transition: 0.4s linear;
+}
+.shadow_1:hover img{
+    transform: scale(1.2);
+}
+.shadow_2 img{
+    transition: 0.4s linear;
+    overflow:hidden;
+}
+.shadow_2:hover img{
+    transform: scale(1.2);
+}
+.shadow_3 img{
+    transition: 0.4s linear;
+}
+.shadow_3:hover img{
+    transform: scale(1.2);
+}
+
+
+.shadow_1 a{
+    transition: 0.2s linear;
+}
+.shadow_1:hover a{
+    border-bottom:2px solid #01ACFD;
+}
+.shadow_2 a{
+    transition: 0.2s linear;
+}
+.shadow_2:hover a{
+    border-bottom:2px solid #FEA301;
+}
+.shadow_3 a{
+    transition: 0.2s linear;
+}
+.shadow_3:hover a{
+    border-bottom:2px solid #8700FF;
+}
+
+
+
+.curlm_image img{
+    width: 100%;
+}
+
+
+.curlm_h3{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #202020;
+    line-height: 30.7px;
+    margin-bottom: 33.5px;
+}
+.curlm_p{
+    font-size: 0.95rem;
+    font-weight: 400;
+    color: #808080;
+    line-height: 28.33px;
+    margin-bottom: 33.5px;
+}
+.curlm_card a{
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: 700;
+    line-height: 28.33px;
 }

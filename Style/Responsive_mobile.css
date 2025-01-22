@@ -3,6 +3,12 @@
     .container{
         margin: 20px 15px 0px 15px;
      }
+     hr{
+        display: block;
+    }
+    .horizontal{
+        height: 80px;
+    }
      .logo_text, .nav_btn, .none{
         display: none;
      }
@@ -36,4 +42,13 @@
     .banner_btn::before{
         border-radius: 8px;
     }
+
+  
+    .Curriculum_curds{
+        gap: 10px;
+        justify-items: center;
+        grid-template-columns: 1fr;
+
+    }
+
 }
