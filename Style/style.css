@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
 *{
     margin: 0px;
     padding: 0px;
@@ -81,6 +83,7 @@ hr{
    line-height: 30px;
    border-radius: 12px;
    border: none;
+   cursor: pointer;
    position: relative;
    z-index: 1;
 }
@@ -145,6 +148,7 @@ hr{
     padding: 10px 47px;
     border-radius: 12px;
     border: none;
+    cursor: pointer;
     position: relative;
     z-index: 1;
 }
@@ -253,37 +257,39 @@ hr{
     transition: 0.4s linear;
 }
 .shadow_1:hover img{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .shadow_2 img{
     transition: 0.4s linear;
-    overflow:hidden;
 }
 .shadow_2:hover img{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 .shadow_3 img{
     transition: 0.4s linear;
 }
 .shadow_3:hover img{
-    transform: scale(1.2);
+    transform: scale(1.1);
 }
 
 
 .shadow_1 a{
     transition: 0.2s linear;
+    border-bottom:2px solid #FFFFFF;
 }
 .shadow_1:hover a{
     border-bottom:2px solid #01ACFD;
 }
 .shadow_2 a{
     transition: 0.2s linear;
+    border-bottom:2px solid #FFFFFF;
 }
 .shadow_2:hover a{
     border-bottom:2px solid #FEA301;
 }
 .shadow_3 a{
     transition: 0.2s linear;
+    border-bottom:2px solid #FFFFFF;
 }
 .shadow_3:hover a{
     border-bottom:2px solid #8700FF;
@@ -315,4 +321,209 @@ hr{
     font-size: 0.95rem;
     font-weight: 700;
     line-height: 28.33px;
+}
+.arow{
+    margin-top: 80px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.arow a{
+     width: 60px;
+     height: 60px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     color: #FFFFFF;
+     background-color: #FEA301;
+     border-radius: 50%;
+     text-decoration: none;
+     cursor: pointer;
+     border: 2px solid #FEA301;
+     transition: 0.2s linear;
+}
+.arow a:hover{
+     color: #FEA301;
+     background-color: #FFFFFF;
+     border: 2px solid #FEA301;
+}
+
+
+
+
+
+
+
+.Stories{
+    background: linear-gradient(#FFFFFF 0%, hsla(38, 99%, 50%, 0.502) 100%), url(../Photo/bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.Stories{
+    padding: 60px 0px;
+}
+.Stories_h3{
+    font-size: 3rem;
+    font-weight: 700;
+    color: #000000;
+    line-height: 57.5px;
+    margin-bottom: 80px; 
+    text-align: center;
+}
+.Stories_cards{
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.big_card{
+    max-width: 540.27px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.big_image{
+    max-width: 540px;
+    max-height: 337px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow: hidden;
+}
+.big_image img{
+    width: 100%;
+}
+.big_text{
+    max-width: 463px;
+    margin: 0 auto;
+}
+.big_h4{
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: #000000;
+    line-height: 38.3px;
+    margin-top: 61.5px; 
+    margin-bottom: 51.5px; 
+}
+.big_p{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #666666;
+    line-height: 28.8px; 
+    margin-bottom: 34.52px; 
+}
+.position a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: "Raleway", serif;
+    line-height: 28.8px; 
+    margin-bottom: 34.5px; 
+    padding: 14.5px 19px;
+    background-color: #3CD8E8;
+    border-radius: 47.93px;
+    text-decoration: none;
+}
+.position{
+    position: absolute;
+    top: 324px;
+    left: 38.35px;
+}
+
+.small_cards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 19px;
+}
+
+.sml_card{
+    max-width: 290.70px;
+    border-radius: 16px;
+    background-color: #FFFFFF;
+    position: relative;
+}
+.sml_image{
+    max-width: 291px;
+    max-height: 177px;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    overflow: hidden;
+}
+.sml_image img{
+    width: 100%;
+}
+
+.sml_h5{
+    max-width: 214px;
+    margin: 0px 38px 28px 38px;
+    font-size: 1rem;
+    font-weight: 700;
+    color: #000000;
+    line-height: 28.8px;
+    margin-top: 38.33px;
+}
+.sml_card a{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    font-family: "Raleway", serif;
+    line-height: 28.8px; 
+    padding: 10px 19px;
+    background-color: #5D58F0;
+    border-radius: 47.93px;
+    text-decoration: none;
+    position: absolute;
+    top: 155px;
+    left: 38.35px;
+}
+
+.scale img{
+    transition: 0.5s linear;
+}
+.scale:hover img{
+    transform: scale(1.1);
+}
+.sml_image, .big_image{
+    overflow: hidden;
+}
+.view_buttton{
+    margin-top: 80px;
+    text-align: center;
+}
+.view_btn{
+    padding: 10px 61px;
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: black;
+    border-radius: 12px;
+    line-height: 30px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    z-index: 1;
+}
+.view_btn::before{
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #FEA301;
+    border-radius: 12px;
+    position: absolute;
+    transform: scaleY(0);
+    transition: transform 0.6s;
+    transform-origin: 1 1;
+    transition-timing-function: 0.4, 0.5, 0.6, 0,7;
+    z-index: -1;
+}
+.view_btn:hover::before{
+    transform: scaleY(1);
+}
+
+
+
+.none_block{
+    display: none;
 }

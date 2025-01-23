@@ -18,11 +18,11 @@
     }
     .banner{
         flex-direction: column-reverse;
-       align-items: center;
+        align-items: center;
         gap: 30px;
     }
     .banner_text{
-        padding: 50px 0px;
+        padding: 50px 0px 0px 0px;
         text-align: center;
     }
     .banner_title{
@@ -43,12 +43,71 @@
         border-radius: 8px;
     }
 
-  
+    .Curriculum_h2{
+        font-size: 1.7rem;
+        margin-bottom: 30px;
+    }
     .Curriculum_curds{
+        margin-left: 20px;
+        margin-right: 20px;
         gap: 10px;
         justify-items: center;
         grid-template-columns: 1fr;
+        
+    }
+    .Curriculum_curds{
+        margin-left: 20px;
+        margin-right: 20px;
+        gap: 10px;
+        justify-items: center;
+        grid-template-columns: 1fr;
+        
+    }
+    .curlm_card{
+        padding: 30px 35px;
+    }
+    .arow{
+        display: none;
+    }
 
+
+    .none_block_1{
+        display: none;
+    }
+    .none_block{
+        display: block;
+    }
+    .Stories{
+        padding: 30px 0px;
+    }
+    .Stories_h3{
+        font-size: 2.5rem;
+        line-height: 22px;
+        margin-bottom: 50px; 
+    }
+
+    .Stories_cards{
+        margin-left: 20px;
+        margin-right: 20px;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .small_cards{
+        gap: 5px;
+    }
+    .sml_h5{
+        max-width: 214px;
+        font-size: 0.6rem;
+        margin: 12px 36px 19px 22px;
+        line-height: 17px;
+    }
+    .sml_card a{
+        font-size: 0.6rem;
+        line-height: 19px; 
+        padding: 5px 12px;
+        border-radius: 47.93px;
+        top: 82px;
+        left: 15px;
     }
 
 }
