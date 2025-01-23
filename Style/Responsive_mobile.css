@@ -110,4 +110,23 @@
         left: 15px;
     }
 
+    .view_buttton{
+        margin-top: 30px;
+    }
+
+    .footer{
+        padding: 60px 20px 60px 20px;
+    }
+    .futer_part{
+       flex-direction: column;
+       gap: 32px;
+    }
+
+    .menu_h4{
+        margin-bottom: 27px;
+    }
+    .menu_part ul {
+        gap: 17px;
+    }
+
 }
