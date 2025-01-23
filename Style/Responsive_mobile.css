@@ -1,4 +1,6 @@
 @media screen and (max-width: 576px) {
+
+    /*=============== Header Part Start ===============*/
     
     .container{
         margin: 20px 15px 0px 15px;
@@ -13,9 +15,12 @@
         display: none;
      }
      .menu {
-        display: block;
-        
+        display: block;   
     }
+
+     /*=============== Header Part End ===============*/
+    /*=============== Banner Part Start ===============*/
+
     .banner{
         flex-direction: column-reverse;
         align-items: center;
@@ -42,6 +47,9 @@
     .banner_btn::before{
         border-radius: 8px;
     }
+
+     /*=============== Banner Part End ===============*/
+    /*=============== Curriculum Part Start ===============*/
 
     .Curriculum_h2{
         font-size: 1.7rem;
@@ -70,6 +78,8 @@
         display: none;
     }
 
+     /*=============== Curriculum Part End ===============*/
+    /*=============== Stories Part Start ===============*/
 
     .none_block_1{
         display: none;
@@ -85,7 +95,6 @@
         line-height: 22px;
         margin-bottom: 50px; 
     }
-
     .Stories_cards{
         margin-left: 20px;
         margin-right: 20px;
@@ -109,10 +118,12 @@
         top: 105px;
         left: 15px;
     }
-
     .view_buttton{
         margin-top: 30px;
     }
+
+    /*=============== Stories Part End ===============*/
+    /*=============== Footer Part Start ===============*/
 
     .footer{
         padding: 60px 20px 60px 20px;
@@ -129,4 +140,13 @@
         gap: 17px;
     }
 
+    .copyright{
+        margin-top: 30px;
+    }
+    .copyright h6{
+        font-size: 1rem;
+        line-height: 20px;
+    }
+
+    /*=============== Footer Part End ===============*/
 }

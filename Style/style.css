@@ -532,7 +532,7 @@ hr{
 
 .footer{
     background-color: #01ACFD;
-    padding: 123px 228px 174px 140px;
+    padding: 125px 140px 50px 140px;
 }
 .futer_part{
     max-width: 1071px;
@@ -608,5 +608,18 @@ hr{
 .contuct_logo img:hover{
     opacity: 50%;
 }
+
+.copyright{
+    max-width: 100%;
+    margin-top: 100px;
+    text-align: center;
+}
+.copyright h6{
+    font-size: 1rem;
+    font-weight: 500;
+    color: #FFFFFF;
+    line-height: 26px;
+}
+
 
 /*=============== footer Part End ===============*/
